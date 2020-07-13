@@ -1,15 +1,18 @@
 # OpenShift Container Cheat Sheet
 
 The purpose of this repository is to create a single repository describing OpenShift container best practices with some ready examples for at least the following set of containers:
+
 - Node.js
 - Spring Boot
-- Python
+- [Python](python)
 - PHP
+- [GO](go)
 - C# Dotnet Core
 - JBoss EAP
 - WebSphere Liberty (now that Runtimes includes Liberty) 
 
 ## Questions to answer
+
 - Who is looking for this content? 
 Developers who wishes to build containers to run on Red Hat provided Kubernetes following good practices.
 
@@ -18,7 +21,9 @@ Developers who wishes to build containers to run on Red Hat provided Kubernetes 
 - What pain points are they trying to address? Provide simple easy copy & paste examples that follow good practices.
 
 ## What will you find here
+
 Samples container build files that include
+
 - Documentation
 - Test and usage instructions
 - Highlight differences between OCP and non-best practice builds
