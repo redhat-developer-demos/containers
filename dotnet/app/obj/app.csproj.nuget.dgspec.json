@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rarm/Code/containers/dotnet/app/app.csproj": {}
+  },
+  "projects": {
+    "/home/rarm/Code/containers/dotnet/app/app.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rarm/Code/containers/dotnet/app/app.csproj",
+        "projectName": "app",
+        "projectPath": "/home/rarm/Code/containers/dotnet/app/app.csproj",
+        "packagesPath": "/home/rarm/.nuget/packages/",
+        "outputPath": "/home/rarm/Code/containers/dotnet/app/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rarm/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/3.1.105/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
