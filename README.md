@@ -54,3 +54,19 @@ Samples container build files that include
 - Documentation
 - Test and usage instructions
 - Highlight differences between OCP and non-best practice builds
+
+
+## Quick Tips
+
+You can access the internal registry after logging into OCP
+```bash
+oc login
+podman login -u $(oc whoami) -p $(oc whoami -t) default-route-openshift-image-registry.apps-crc.testing --tls-verify=false
+
+podman tag localhost/imagename  default-route-openshift-image-registry.apps-crc.testing/[yourproject]/imagename
+podman push default-route-openshift-image-registry.apps-crc.testing/[yourproject]/imagename --tls-verify=false
+
+```
+
+
+```
