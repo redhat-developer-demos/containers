@@ -2,7 +2,7 @@
 
 The purpose of this repository is to create a single repository describing OpenShift container best practices with some ready examples for at least the following set of containers:
 
-- Node.js
+- [Node.js](nodejs)
 - Spring Boot
 - Quarkus
 - [Python](python)
@@ -65,8 +65,5 @@ podman login -u $(oc whoami) -p $(oc whoami -t) default-route-openshift-image-re
 
 podman tag localhost/imagename  default-route-openshift-image-registry.apps-crc.testing/[yourproject]/imagename
 podman push default-route-openshift-image-registry.apps-crc.testing/[yourproject]/imagename --tls-verify=false
-
-```
-
 
 ```
