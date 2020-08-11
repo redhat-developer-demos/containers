@@ -64,6 +64,28 @@ Testing container builds against your OCP clusters (in my case CRC). Assumes you
 oc new-build --name mybuild --binary --strategy docker
 oc start-build mybuild --from-dir=.
 
+oc logs -f build/mybuild-1   
+
+# Verify your image exists
+oc new-app --search mybuild
+
+# Deploy your image
+oc new-app mybuild
+
+#Verifty image
+oc get pods
+
+# Get app details, use service to expose route
+oc status
+
+oc expose svc/mybuild
+
+# This will show route
+oc status
+
+# in our example
+curl http://mybuild-test.apps-crc.testing
+
 ```
 
 You can access the internal registry after logging into OCP
