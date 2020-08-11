@@ -58,6 +58,14 @@ Samples container build files that include
 
 ## Quick Tips
 
+
+Testing container builds against your OCP clusters (in my case CRC). Assumes you are logged in. 
+```bash
+oc new-build --name mybuild --binary --strategy docker
+oc start-build mybuild --from-dir=.
+
+```
+
 You can access the internal registry after logging into OCP
 ```bash
 oc login
