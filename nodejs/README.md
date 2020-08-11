@@ -44,7 +44,8 @@ CMD [ "node", "server.js" ]
 
 Building the container
 ```bash
-podman build -t testnode .
+buildah bud -t testnode -f Containerfile . 
+
 ```
 
 running the container

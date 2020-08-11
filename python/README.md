@@ -50,7 +50,7 @@ CMD ["app.py"]
 
 Building the container
 ```bash
-podman build -t test .
+buildah bud -t test -f Dockerfile . 
 ```
 
 running the container
@@ -94,7 +94,10 @@ CMD ["app.py"]
 
 Building the container
 ```bash
-podman build -f Dockerfile_python -t test2 .
+
+buildah bud -t test2 -f Dockerfile_python . 
+# podman build -f Dockerfile_python -t test2 .
+
 ```
 
 running the container

@@ -67,3 +67,6 @@ podman tag localhost/imagename  default-route-openshift-image-registry.apps-crc.
 podman push default-route-openshift-image-registry.apps-crc.testing/[yourproject]/imagename --tls-verify=false
 
 ```
+
+# podman and buildah: We encourage buildah
+podman uses buildah underneath for builds (same code logic), but with buildah developers have extra tools for building images, is more flexible by allowing developers not only to depend on a Dockerfile, but source files, and even bash scripts.
