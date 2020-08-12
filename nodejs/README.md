@@ -5,7 +5,7 @@ The nodejs example is based on the NodeJS documentation as a starting point.
 https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
 ### OpenShift specifics
-* Adding user 1001 at the end (default UBI behaviour bet specificity is good)
+* Adding user 1001 at the end (default UBI behaviour but specificity is good)
 * Setting permissions on working folder
 
 ### Example from base UBI 
