@@ -11,7 +11,7 @@ The purpose of this repository is to create a single repository describing OpenS
 - [C# Dotnet Core](dotnet)
 - JBoss EAP
 - WebSphere Liberty (now that Runtimes includes Liberty) 
-- HTTPD example(apache_httpd)
+- [HTTPD example](apache_httpd)
 
 ## Creating Images for OpenShift
 
