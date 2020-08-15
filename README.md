@@ -6,7 +6,7 @@ The purpose of this repository is to create a single repository describing OpenS
 - Spring Boot
 - Quarkus
 - [Python](python)
-- PHP
+- [PHP](php)
 - [GO](go)
 - [C# Dotnet Core](dotnet)
 - JBoss EAP
