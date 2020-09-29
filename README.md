@@ -30,7 +30,7 @@ RUN chgrp -R 0 /some/directory && \
     chmod -R g=u /some/directory
 ```
 
-See example [Python](https://raw.githubusercontent.com/redhat-developer-demos/containers/master/python/flask/Dockerfile)
+See example [Python](https://raw.githubusercontent.com/redhat-developer-demos/containers/master/python/flask/Containerfile)
 
 Alternatively you can use the Red Hat language specific UBI images as per the [Go Example](https://raw.githubusercontent.com/redhat-developer-demos/containers/master/go/ContainerFile) or [.net Example](https://raw.githubusercontent.com/redhat-developer-demos/containers/master/dotnet/ContainerFile), these have the right permissions set if you follow the conventions.
 
